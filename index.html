@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <script src="/index.js"></script>
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Conversor de Moedas</h1>
+        <input type="number" id="valor" size="2" placeholder="Insira um valor para converter" value="">
+
+        <select name="select" id="select">
+            <option value="blank">Escolha uma moeda para converter:</option>
+            <option value="dolar" selected>Dolar</option>
+            <option value="euro">Euro</option>
+            <option value="bitcoin">Bitcoin</option>
+        </select>
+
+        <button type="submit" onclick="Converter()">CONVERTER</button>
+
+        <div id="valorConvertido"></div>
+    </div>
+</body>
+
+</html>
